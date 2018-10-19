@@ -102,6 +102,7 @@ window.onload = function() {
     url: "${pathPrefix}api-docs",
     dom_id: '#swagger-ui',
     deepLinking: true,
+    oauth2RedirectUrl: "http://localhost:3333/api",
     presets: [
       SwaggerUIBundle.presets.apis,
       SwaggerUIStandalonePreset
